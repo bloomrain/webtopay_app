@@ -8,7 +8,16 @@
 </head>
 <body>
 
-<%= yield %>
+<%= form_for WebToPay::Payment.new, url: order_products_path do |f| %>
+  <%= f.text_field :p_name %>
+  <%= f.text_field :p_surname %>
+  <%= f.text_field :p_email %>
+  <%= f.submit "test paying" %>
+<% end %>
+
+<% if false %>
+	<%= yield %>
+<% end %>
 
 </body>
 </html>
