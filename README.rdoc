@@ -1,28 +1,19 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is Rails application for `webtopay` gem - https://github.com/bloomrain/webtopay
 
-Things you may want to cover:
+Files changes/added:
 
-* Ruby version
+* Gemfile
 
-* System dependencies
+* app/controllers/order_controller.rb
 
-* Configuration
+* config/routes.rb
 
-* Database creation
+* config/initializers/webtopay.rb
 
-* Database initialization
+* app/views/layouts/application.html.erb
 
-* How to run the test suite
+* app/views/orders/home.html.erb
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Please ignore files on "first commit" commit - there are original Rails App files.
