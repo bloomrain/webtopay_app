@@ -1,6 +1,6 @@
-== Rails App for `WebToPay` Gem Testing
+== Rails App for "WebToPay" Gem Testing
 
-`WebToPay: https://github.com/bloomrain/webtopay
+WebToPay: https://github.com/bloomrain/webtopay
 
 Files changes/added to standart Rails App:
 
