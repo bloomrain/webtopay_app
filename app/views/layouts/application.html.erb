@@ -15,6 +15,14 @@
   <%= f.submit "test paying" %>
 <% end %>
 
+<hr>
+
+<%
+# FIXIT: Doesn't render given params in HTML form:
+%>
+<%= webtopay_confirm_button("Buy", {amount: 2000, p_name: "Jonas", callbackurl: 'http://example.com', cancelurl: 'http://example.com'})
+%>
+
 <% if false %>
 	<%= yield %>
 <% end %>

@@ -2,6 +2,7 @@
 class OrdersController < ApplicationController
   webtopay :use_webtopay, :confirm_order
 
+  # FIXIT: Gives an error: "projectid" is invalid. Expected "48331", but was ""
   # Buy
   def use_webtopay 
       wp_extras = {
