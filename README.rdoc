@@ -1,8 +1,8 @@
-== README
+== Rails App for `WebToPay` Gem Testing
 
-This is Rails application for `webtopay` gem - https://github.com/bloomrain/webtopay
+`WebToPay: https://github.com/bloomrain/webtopay
 
-Files changes/added:
+Files changes/added to standart Rails App:
 
 * Gemfile
 
